@@ -7,40 +7,41 @@ DataFun-05-SQL is designed to provide hands-on experience with SQL, focusing on 
 ## Getting Started
 ✅ Create a GitHub project repository with a default README.md.
 
-✅ Clone your repo down to your machine. 
+✅ Clone new project repo down to local machine. 
 
-✅ Open your project folder in VS Code (if you haven't already).
+✅ Open the new project folder in VS Code.
 
-✅ Add a .gitignore with .vsode/ and .venv/ and whatever else doesn't need to go in the repo. 
+✅ Add  to the .gitignore with .vsode/ and .venv/ 
 
 ✅ Create and activate a local virtual environment in .venv.
 
-✅ Install your dependencies into your .venv (pandas and pyarrow) and freeze into your requirements.txt. 
+✅ Install dependencies into your .venv (pandas and pyarrow) and freeze into the requirements.txt. 
 
-✅ Record the commands used in your README.md.
+✅ Record the commands used in README.md. 
 
 ✅ Git add and commit with a useful message (e.g. "initial commit") and push to GitHub.
 
 ✅ Create first project files (usually in VS Code). 
 
-As you work, git add / commit / push to GitHub.
+Remember to save work, git add / commit / push to GitHub.
 
-# Objective
+## Objective
 
-1. Environment setup
+### 1. Environment setup
+ 
 
-2. Project start
+### 2. Project start
 
-3. Import Dependencies
+### 3. Import Dependencies
 
-4. Logging
+### 4. Logging
 
-5. Databass creation and Schema design
+### 5. Databass creation and Schema design
 
-6. SQL operations
+### 6. SQL operations
 
-7. Integration (python and SQL)
+### 7. Integration (python and SQL)
 
-8. Main function
+### 8. Main function
 
-9. Conditional script execution
+### 9. Conditional script execution
