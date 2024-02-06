@@ -36,7 +36,7 @@ Remember to save work, git add / commit / push to GitHub.
 
 ### 4. Logging
 
-### 5. Databass creation and Schema design
+### 5. Database creation and Schema design
 
 ### 6. SQL operations
 
