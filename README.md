@@ -74,20 +74,18 @@ import sqlite3
 
 
 ### 5. Database creation and Schema design
-# Blog Database Schema
-
 This document describes the database schema for a simple blog system.
 
-## Tables
+#### Tables
 
-### Users
+##### Users
 
 - `user_id`: INT, Primary Key, auto-increment
 - `username`: VARCHAR(255), unique
 - `email`: VARCHAR(255), unique
 - `created_at`: TIMESTAMP, default CURRENT_TIMESTAMP
 
-### Posts
+##### Posts
 
 - `post_id`: INT, Primary Key, auto-increment
 - `user_id`: INT, Foreign Key (References `Users.user_id`)
@@ -95,11 +93,9 @@ This document describes the database schema for a simple blog system.
 - `content`: TEXT
 - `published_at`: TIMESTAMP, default CURRENT_TIMESTAMP
 
-## Relationships
+##### Relationships
 
 - Each `Post` is associated with one `User` through `user_id`.
-
-
 
 ### 6. SQL operations
 
