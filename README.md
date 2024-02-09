@@ -30,12 +30,12 @@ Remember to save work, git add / commit / push to GitHub.
 ### 1. Environment setup
 The environment set up is beginning to become second nature. 
 
-    * Ensure that the github versioning is setup and operational. the following code was used to set up git:
+*Ensure that the github versioning is setup and operational. the following code was used to set up git:
 ```bash
 git clone https://github.com/JBtallgrass/datafun-05-sql.git
 git remote -v
 ```
-    * set up up the virtual environment is important so that any development within a project doesn't interfere with the machine environment. The following code was used to develope the virtual environment for the project: 
+*Set up up the virtual environment is important so that any development within a project doesn't interfere with the machine environment. The following code was used to develope the virtual environment for the project: 
 ```bash
 python -m venv .venv
 # activate .venv
@@ -45,7 +45,7 @@ source .venv/scripts/activate
 ### 2. Project start
 
 ### 3. Import Dependencies
-the followng dependencies were imported for use in the project:
+The followng dependencies were imported for use in the project:
 ```bash
 # import dependencies
 import csv
