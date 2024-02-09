@@ -27,6 +27,13 @@ Remember to save work, git add / commit / push to GitHub.
 
 ## Objective
 
+- **Database Creation and Schema Design**: Set up a new SQLite database and define its schema by creating tables.
+- **SQL Operations**: Execute a range of SQL operations including data insertion, updating, deleting, querying with filters, aggregations, group by, joins, and sorting.
+- **Integration (Python and SQL)**: Use Python to manage database connections, execute SQL commands, and handle data manipulation tasks.
+- **Main Function**: Centralize the execution flow of the script, ensuring a structured and orderly operation sequence.
+- **Conditional Script Execution**: Ensure the script runs directly (not as an imported module), enhancing modularity and reusability.
+
+
 ### 1. Environment setup
 The environment set up is beginning to become second nature. 
 
