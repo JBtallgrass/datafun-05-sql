@@ -1,15 +1,15 @@
 -- Insert users
-INSERT INTO Users (username, email) VALUES
-('user51', 'user51@example.com'),
-('user52', 'user52@example.com'),
-('user53', 'user53@example.com'),
-('user54', 'user54@example.com'),
-('user55', 'user55@example.com'),
-('user56', 'user56@example.com'),
-('user57', 'user57@example.com'),
-('user58', 'user58@example.com'),
-('user59', 'user59@example.com'),
-('user60', 'user60@example.com');
+INSERT INTO Users (user_id, username, email) VALUES
+(51, 'user51', 'user51@example.com'),
+(52, 'user52', 'user52@example.com'),
+(53, 'user53', 'user53@example.com'),
+(54, 'user54', 'user54@example.com'),
+(55, 'user55', 'user55@example.com'),
+(56, 'user56', 'user56@example.com'),
+(57, 'user57', 'user57@example.com'),
+(58, 'user58', 'user58@example.com'),
+(59, 'user59', 'user59@example.com'),
+(60, 'user60', 'user60@example.com');
 
 -- Insert posts
 INSERT INTO Posts (user_id, title, content) VALUES

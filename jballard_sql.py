@@ -80,7 +80,7 @@ def main():
     create_tables()
     insert_data_from_csv()
     # Add calls to execute_sql_from_file here for each SQL file
-    execute_sql_from_file(db_file, Path("sql", "delete_records.sql"))
+   
     execute_sql_from_file(db_file, Path("sql", "insert_records.sql"))
     execute_sql_from_file(db_file, Path("sql", "query_aggregation.sql"))
     execute_sql_from_file(db_file, Path("sql", "query_filter.sql"))
@@ -88,6 +88,8 @@ def main():
     execute_sql_from_file(db_file, Path("sql", "query_join.sql"))
     execute_sql_from_file(db_file, Path("sql", "query_sorting.sql"))
     execute_sql_from_file(db_file, Path("sql", "update_records.sql"))
+
+    execute_sql_from_file(db_file, Path("sql", "delete_records.sql"))
 
 logging.info("Program ended")
 
